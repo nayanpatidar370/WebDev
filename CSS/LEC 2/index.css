@@ -1,0 +1,27 @@
+h1{
+
+    border: 2px solid black;
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 200px;
+    width: 400px;
+    background-image: linear-gradient(to right, #eec374,rgb(156, 156, 238),rgb(131, 244, 131));
+    background-image: linear-gradient(to left, #eec374,rgb(156, 156, 238),rgb(131, 244, 131));
+    background-image: linear-gradient(to top, #eec374,rgb(156, 156, 238),rgb(131, 244, 131));
+    background-image: linear-gradient(to bottom, #eec374,rgb(156, 156, 238),rgb(131, 244, 131));
+    background-image: linear-gradient(150deg, #6c624f,rgb(156, 156, 238),rgb(131, 244, 131));
+}
+
+#div1{
+
+    border: 2px solid black;
+    font-size: 50px;
+    font-style: bold;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 200px;
+    width: 400px;
+    background-image: radial-gradient(circle,#bbac90,rgb(64, 64, 78),rgb(46, 56, 46));
+    background-image: radial-gradient(circle,#bbac90,rgb(64, 64, 78) 40%,rgb(46, 56, 46));
+}

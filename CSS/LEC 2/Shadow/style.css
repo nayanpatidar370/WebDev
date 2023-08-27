@@ -1,0 +1,14 @@
+h1{
+    text-shadow: 3px 4px 3px grey, 5px 6px 3px rgb(69, 99, 69);
+}
+
+#div1{
+    background-color: red;
+    text-align: center;
+    font-style: bold;
+    font-size: 30px;
+    height: 50px;
+    width: 300px;
+    color: white;
+    box-shadow: -3px -4px 3px grey, 5px 6px 3px rgb(69, 99, 69);
+}
