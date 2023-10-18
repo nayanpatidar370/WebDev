@@ -1,0 +1,30 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border:  2px solid orange;
+    background-color: aqua;
+    transition: background-color ls ease 3s;
+    -webkit-transition: background-color ls ease 3s;
+    -moz-transition: background-color ls ease 3s;
+    -ms-transition: background-color ls ease 3s;
+    -o-transition: background-color ls ease 3s;
+}
+
+.box:hover{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+
+    background-color: brown;
+}
