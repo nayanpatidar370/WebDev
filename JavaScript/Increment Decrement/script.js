@@ -12,7 +12,7 @@ const increment = () => {
 
     countValue.innerText= value;
 }
-
+ 
 const decrement= () => { 
  //get the value from ui
  let value= parseInt(countValue.innerText);
